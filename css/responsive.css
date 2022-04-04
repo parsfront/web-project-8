@@ -1,0 +1,121 @@
+@media screen and (max-width: 1400px) {
+    .container {
+        width: 90%;
+    }
+
+    header nav ul {
+        margin-left: 5px;
+    }
+
+    #our-story .story-desc h1 {
+        margin-top: 100px;
+    }
+
+    #our-story .story-desc p {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #our-story {
+        height: 400px;
+    }
+
+    #our-story .story-desc h1 {
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #our-story {
+        height: 550px;
+        padding: 0;
+    }
+
+    #our-story .story-desc {
+        width: 100%;
+    }
+
+    #our-story .story-img {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #our-story .story-img img {
+        width: 400px;
+    }
+
+    header nav ul {
+        display: none;
+    }
+
+    header .hamburger-icon {
+        display: block;
+        float: right;
+    }
+
+    header .hamburger-icon img {
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    header nav .logo {
+        float: left;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        height: 500px;
+    }
+
+    header .header-desc {
+        top: 200px;
+    }
+
+    header .header-desc h1 {
+        font-size: 40px;
+    }
+
+    header .header-desc p {
+        font-size: 21px;
+    }
+
+    #our-story .story-desc h1 {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    header .header-desc h1 {
+        font-size: 30px;
+    }
+
+    header .header-desc p {
+        font-size: 17px;
+    }
+
+    #our-story .story-desc h1 {
+        font-size: 25px;
+    }
+
+    #our-story .story-desc p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    #our-story .story-img img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header .header-desc h1 {
+        font-size: 25px;
+    }
+
+    header .header-desc p {
+        font-size: 15px;
+    }
+}

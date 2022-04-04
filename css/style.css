@@ -47,6 +47,15 @@ li {
     display: none;
 }
 
+.hamburger-icon {
+    width: 20%;
+    display: none;
+}
+
+.hamburger-icon img {
+    width: 50px;
+}
+
 /* header */
 
 header {
