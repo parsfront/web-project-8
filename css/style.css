@@ -40,7 +40,7 @@ li {
 
 .hamburger-icon img {
     width: 50px;
-    pointer-events: none;
+    cursor: pointer;
 }
 
 #responsive-navigation {
@@ -54,6 +54,10 @@ li {
 
 .hamburger-icon img {
     width: 50px;
+}
+
+#responsive-navigation {
+    display: none;
 }
 
 /* header */

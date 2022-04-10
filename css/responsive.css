@@ -118,6 +118,38 @@
         float: none;
         margin: 0 10px;
     }
+
+    #responsive-navigation {
+        display: block;
+        width: 220px;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: -220px;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    #responsive-navigation ul {
+        display: block;
+        width: 100%;
+    }
+
+    #responsive-navigation ul li {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .back-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+        transition: all ease 0.5s;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -168,6 +200,18 @@
 
     #menu .container {
         overflow: auto;
+    }
+
+    #footer .footer .about-footer p {
+        width: 90%;
+    }
+
+    #footer .footer .contact-us {
+        width: 100%;
+    }
+
+    #footer .footer .contact-us .social ul li {
+        margin: 0 5px;
     }
 }
 
@@ -220,6 +264,14 @@
 
     #delight .delight .delight-img img.img-left {
         margin-right: 10px;
+    }
+
+    #footer .copy-right h2 {
+        font-size: 20px;
+    }
+
+    #footer .copy-right p {
+        font-size: 15px;
     }
 }
 

@@ -16,6 +16,7 @@
   <!-- header section Strat -->
   <header>
     <div class="overlay">
+
       <nav>
         <div class="container">
           <div class="hamburger-icon">
@@ -33,6 +34,17 @@
             <img src="./images/logo.webp" alt="">
           </div>
         </div>
+      </nav>
+
+      <nav id="responsive-navigation">
+        <ul>
+          <li><a href="">خانه</a></li>
+          <li><a href="">قهوه</a></li>
+          <li><a href="">کیک</a></li>
+          <li><a href="">نوشیدنی</a></li>
+          <li><a href="">درباره ما</a></li>
+          <li><a href="">تماس با ما</a></li>
+        </ul>
       </nav>
 
       <nav id="responsive-navigation">
@@ -179,6 +191,25 @@
   </footer>
 
   <script src="./js/all.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function () {
+      $('header .hamburger-icon img').click(function () {
+        let responsiveMenu = $('#responsive-navigation');
+        responsiveMenu.animate({
+          right: '0'
+        }, 500);
+        $('body').append('<div class="back-container"></div>');
+        $('.back-container').click(function () {
+          responsiveMenu.animate({
+            right: '-100%'
+          }, 500);
+          $(this).remove();
+        });
+      });
+    });
+  </script>
 </body>
 
 </html>
